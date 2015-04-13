@@ -1,8 +1,8 @@
 {
   "name": "dd-push-js",
   "version": "1.0.0",
-  "description": "A simple library for accessing DataDrop pushes via the web and nodejs.",
-  "main": "index.js",
+  "description": "A simple library for accessing DataDrop pushes via the web and node.",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,8 +10,11 @@
     "type": "git",
     "url": "https://github.com/DataDropApp/dd-push-js.git"
   },
-  "author": "",
-  "license": "BSD 2 Clause",
+  "author": {
+    "name": "William Burke",
+    "email": "wburke@calculingua.com"
+  },
+  "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/DataDropApp/dd-push-js/issues"
   },
