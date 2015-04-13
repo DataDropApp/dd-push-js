@@ -9,11 +9,11 @@ this library though.  You just get simple methods for doing those things.
 
 ## How do you install it?
 Install it with npm: 
-```
+```bash
 npm install dd-push-js
 ```
 or bower:
-```
+```bash
 bower install dd-push-js
 ```
 
@@ -37,7 +37,7 @@ bower install dd-push-js
 3. Do your thing!
   ```javascript
   // use read, write, append, or delete.
-  p1.write("This is saved from node.js")
+  push1.write("This is saved from node.js")
     .then(function(body){
       console.log("The server responded with:", body);
     })
