@@ -21,21 +21,21 @@ bower install dd-push-js
 
 1.  Load the library.   
   If you're using node:
-  ``` 
+  ```javascript
   var ddPush = require("dd-push-js");
   ```
   If you're using a browser:
-  ```
+  ```html
   <script src="bower_components/dd-push-js/dist/dd-push.min.js"></script>
   ```  
   
 2. Config the push.
-  ```
+  ```javascript
   var push1 = ddPush.push({url : "#### your url here ###", key: "#### your key here ###"});
   ```
   
 3. Do your thing!
-  ```
+  ```javascript
   // use read, write, append, or delete.
   p1.write("This is saved from node.js")
     .then(function(body){
