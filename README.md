@@ -19,17 +19,17 @@ bower install dd-push-js
 
 ## How do you use it?  
 
-1.  Load the library:   
+1.  Load the library.   
   If you're using node:
   ``` 
   var ddPush = require("dd-push-js");
   ```
-    If you're using a browser:
+  If you're using a browser:
   ```
   <script src="bower_components/dd-push-js/dist/dd-push.min.js"></script>
   ```  
   
-2. Config the push:
+2. Config the push.
   ```
   var push1 = ddPush.push({url : "#### your url here ###", key: "#### your key here ###"});
   ```
